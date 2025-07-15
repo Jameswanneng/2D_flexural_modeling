@@ -28,7 +28,7 @@ Dependencies:
 	4.Matplotlib
 	5.xlrd
 
-Citation: \n
-When use this software, please cite: \n
+Citation:
+When use this software, please cite:
   1. Wan, N., Liu, S. F., Li, X. Y., Zhang, B., Ren, R., & Chen, Z. X. (2023). Limited flexural control of fold-thrust belts on the Jurassic Sichuan Basin, South China. Frontiers in Earth Science, 11, 1276832. https://doi.org/10.3389/feart.2023.1276832 
   2. Liu, S. F., Zhang, B., Ma, P. F., Williams, S., Lin, C. F., Wan, N., Ran, C. L., & Gurnis, M. (2024). Craton deformation from flat-slab subduction and rollback. Nature Geoscience, 17, 1-8. https://doi.org/10.1038/s41561-024-01513-2

@@ -10,8 +10,7 @@
 
 #    (c) China University of Geosciences (Beijing)
 #            ALL RIGHTS RESERVED
-#             Original_Author: Wan Neng
-#             Modified_Author: Xueyan Li
+#        Authors: Neng Wan, Xueyan Li
 
 
 import math
@@ -115,6 +114,7 @@ def sediment_thickness_interpolation_along_profile(well_location_list, original_
 	well_location_list_shifted = np.delete(well_location_list, points_to_be_removed)
 	well_location_list_shifted1_2 = well_location_list_shifted[0:-4]
 	return y_new, well_location_list_shifted1_2
+
 
 def build_mountain_belt_geometry(load_height, load_height2, load_width, load_width2, load_geometry, load_geometry2, modeling_section_profile,
 								 well_location_list_shifted, displacement2):
@@ -248,6 +248,8 @@ def build_mountain_belt_geometry(load_height, load_height2, load_width, load_wid
 									int(well_location_list_shifted[-1]) + displacement2 + one_third_load_width2*3 + 1] \
 			= surface_slope2 * xSurface_triangle2_print_ * 1000
 	return mountain_load_distribution, mountain_load_distribution2, xSurface_triangle2_print
+
+
 def cal_flexure(load_height, load_height2, load_width, load_width2, displacement2, well_location_list_shifted, alpha, alpha2, rho_c, rho_s_list, delta_rho, sedTh, modeling_section_profile,
                 precomputed_const_paramter_list, precomputed_const_paramter_list2, flexure_modeling_mode='broken', load_geometry='triangle', load_geometry2='triangle',
                 add_water_load_mode='off', rho_w=1000, water_depth_list=None):
@@ -386,6 +388,8 @@ def cal_flexure(load_height, load_height2, load_width, load_width2, displacement
 	RS_residual_subsidence = -(summed_deflection + sedTh)
 	return final_mountain_topography, load_distribution_along_profile, combined_topography, summed_deflection_by_mountain_load_only1_2, summed_deflection_by_mountain_load, \
 		summed_deflection_by_mountain_load2, summed_deflection, mountain_load_distribution, mountain_load_distribution2, forebulge_location, basin_width, mountain_load_distribution2_test, xSurface_triangle2_print, RS_residual_subsidence
+
+
 def plot_flexure(basin_name, section_profile, summed_w, summed_deflection_by_mountain_load_only1_2, modified_sedth,
                  original_sedth, mountain_load_topography, load_wt_value, load_wt_value2, section_number,
                  displacement_value, displacement_value2, modeling_age, well_location_list_shifted,

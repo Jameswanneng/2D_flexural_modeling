@@ -3,11 +3,10 @@
 # ======================================================
 #    (c) China University of Geosciences (Beijing)
 #            ALL RIGHTS RESERVED
-#             Original_Author: Wan Neng
-#             Modified_Author: Xueyan Li
+#             Authors: Wan Neng Wan, Xueyan Li
+#		        	Oct, 05, 2024
 
 
-# import python modules
 import math
 import sys
 import numpy as np

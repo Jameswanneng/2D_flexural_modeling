@@ -6,7 +6,6 @@ Flexural Backstripping Modeling Toolkit
 This repository contains a Python toolkit for 2D flexural backstripping modeling developed by researchers at China University of Geosciences (Beijing).
 
 Key Features:
-
 	1.Implements flexural isostatic modeling of sedimentary basins
  	2.Handles multiple tectonic loads with various geometries (triangles, rectangles, trapezoids)
  	3.Visualizes modeling results with publication-quality figures

@@ -3,8 +3,8 @@
 # ======================================================
 #    (c) China University of Geosciences (Beijing)
 #            ALL RIGHTS RESERVED
-#             Authors: Wan Neng Wan, Xueyan Li
-#		        	Oct, 05, 2024
+#      Authors: Neng Wan, Xueyan Li
+#		 Oct, 05, 2024
 
 
 import math

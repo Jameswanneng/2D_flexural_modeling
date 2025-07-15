@@ -7,11 +7,9 @@
 #- Reads age-dependent stratigraphic data from Excel files
 #- Maintains consistent data structures for basin modeling
 
-#            Python script for
 # (c) China University of Geosciences (Beijing)
 #            ALL RIGHTS RESERVED
-#             Original_Author: Wan Neng
-#             Modified_Author: Xueyan Li
+#        Authors: Neng Wan, Xueyan Li
 
 
 import matplotlib
@@ -23,6 +21,7 @@ import numpy as np
 matplotlib.rcParams['pdf.fonttype'] = 42
 matplotlib.rcParams['ps.fonttype'] = 42
 matplotlib.rcParams['font.family'] = 'Arial'
+
 
 def get_well_locations(well_list_file):
     """
@@ -49,6 +48,7 @@ def get_well_locations(well_list_file):
         well_list.append(well_name)
     well_list_file.close()
     return well_distance_dict
+
 
 def read_age_dependant_data(basin_age_sequence, base_age, excel_file_path, column_index=1):
     """

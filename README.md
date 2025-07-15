@@ -3,7 +3,8 @@ A set of python scripts for running 2D flexural models.
 
 Flexural Backstripping Modeling Toolkit
 
-This repository contains a Python toolkit for 2D flexural backstripping modeling developed by researchers at China University of Geosciences (Beijing). \n
+This repository contains a Python toolkit for 2D flexural backstripping modeling developed by researchers at China University of Geosciences (Beijing).
+
 The code was originally created by Neng Wan and later modified by Xueyan Li.
 
 Key Features:
@@ -23,11 +24,11 @@ Usage:
 	3.View output figures in the specified directory
 
 Dependencies:
-	1.Python 3.x \n
-	2.NumPy \n
-	3.SciPy \n
-	4.Matplotlib \n
-	5.xlrd \n
+	1.Python 3.
+	2.NumPy
+	3.SciPy
+	4.Matplotlib
+	5.xlrd
 
 Citation: \n
 When use this software, please cite: \n

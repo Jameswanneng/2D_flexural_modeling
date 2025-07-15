@@ -21,7 +21,7 @@ This repository contains a Python toolkit for 2D flexural backstripping modeling
 	3.View output figures in the specified directory
 
 ## Dependencies:
-	1.Python 3.
+	1.Python 3
 	2.NumPy
 	3.SciPy
 	4.Matplotlib

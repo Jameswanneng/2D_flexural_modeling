@@ -1,5 +1,4 @@
 # 2D_flexural_modeling
-A set of python scripts for running 2D flexural models.
 
 Flexural Backstripping Modeling Toolkit
 
